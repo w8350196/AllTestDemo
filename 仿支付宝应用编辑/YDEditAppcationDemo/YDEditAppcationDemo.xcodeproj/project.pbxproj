@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2B91D92180924100AF6885 /* YDApplicationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B91D82180924100AF6885 /* YDApplicationRouter.m */; };
+		8B2B91DC2180935B00AF6885 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B91DB2180935A00AF6885 /* UIViewController+Extension.m */; };
+		8BB112DF2159C90100E557CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112DE2159C90100E557CA /* AppDelegate.m */; };
+		8BB112E22159C90100E557CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112E12159C90100E557CA /* ViewController.m */; };
+		8BB112E52159C90100E557CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB112E32159C90100E557CA /* Main.storyboard */; };
+		8BB112E72159C90300E557CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB112E62159C90300E557CA /* Assets.xcassets */; };
+		8BB112EA2159C90300E557CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB112E82159C90300E557CA /* LaunchScreen.storyboard */; };
+		8BB112ED2159C90300E557CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112EC2159C90300E557CA /* main.m */; };
+		8BB112F52159CBA800E557CA /* YDApplicationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112F42159CBA800E557CA /* YDApplicationModel.m */; };
+		8BB112F8215A046E00E557CA /* YDAppCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112F7215A046E00E557CA /* YDAppCollectionViewCell.m */; };
+		8BB112FA215A06D100E557CA /* YDAppCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB112F9215A06D100E557CA /* YDAppCollectionViewCell.xib */; };
+		8BB112FD215A096C00E557CA /* YDCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112FB215A096C00E557CA /* YDCollectionViewFlowLayout.m */; };
+		8BB11300215A222100E557CA /* YDApplicationHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB112FF215A222100E557CA /* YDApplicationHeaderReusableView.m */; };
+		8BF8DF08215CC1CB00007873 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DEFE215CC1CA00007873 /* FMDatabaseQueue.m */; };
+		8BF8DF09215CC1CB00007873 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DF01215CC1CA00007873 /* FMDatabaseAdditions.m */; };
+		8BF8DF0A215CC1CB00007873 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DF02215CC1CA00007873 /* FMDatabase.m */; };
+		8BF8DF0B215CC1CB00007873 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DF06215CC1CA00007873 /* FMDatabasePool.m */; };
+		8BF8DF0C215CC1CB00007873 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DF07215CC1CA00007873 /* FMResultSet.m */; };
+		8BF8DF0F215CC1FE00007873 /* YDSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DF0E215CC1FE00007873 /* YDSortTool.m */; };
+		8BF8DF12215CC8EA00007873 /* YDDateFormatTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8DF11215CC8E900007873 /* YDDateFormatTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B2B91D72180924100AF6885 /* YDApplicationRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDApplicationRouter.h; sourceTree = "<group>"; };
+		8B2B91D82180924100AF6885 /* YDApplicationRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDApplicationRouter.m; sourceTree = "<group>"; };
+		8B2B91DA2180935A00AF6885 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		8B2B91DB2180935A00AF6885 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		8BB112DA2159C90100E557CA /* YDEditAppcationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDEditAppcationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB112DD2159C90100E557CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BB112DE2159C90100E557CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BB112E02159C90100E557CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BB112E12159C90100E557CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BB112E42159C90100E557CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB112E62159C90300E557CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BB112E92159C90300E557CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BB112EB2159C90300E557CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB112EC2159C90300E557CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BB112F32159CBA800E557CA /* YDApplicationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDApplicationModel.h; sourceTree = "<group>"; };
+		8BB112F42159CBA800E557CA /* YDApplicationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDApplicationModel.m; sourceTree = "<group>"; };
+		8BB112F6215A046E00E557CA /* YDAppCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppCollectionViewCell.h; sourceTree = "<group>"; };
+		8BB112F7215A046E00E557CA /* YDAppCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAppCollectionViewCell.m; sourceTree = "<group>"; };
+		8BB112F9215A06D100E557CA /* YDAppCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YDAppCollectionViewCell.xib; sourceTree = "<group>"; };
+		8BB112FB215A096C00E557CA /* YDCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		8BB112FC215A096C00E557CA /* YDCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8BB112FE215A222100E557CA /* YDApplicationHeaderReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDApplicationHeaderReusableView.h; sourceTree = "<group>"; };
+		8BB112FF215A222100E557CA /* YDApplicationHeaderReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDApplicationHeaderReusableView.m; sourceTree = "<group>"; };
+		8BF8DEFD215CC1CA00007873 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8BF8DEFE215CC1CA00007873 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8BF8DEFF215CC1CA00007873 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8BF8DF00215CC1CA00007873 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8BF8DF01215CC1CA00007873 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8BF8DF02215CC1CA00007873 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8BF8DF03215CC1CA00007873 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8BF8DF04215CC1CA00007873 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8BF8DF05215CC1CA00007873 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8BF8DF06215CC1CA00007873 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8BF8DF07215CC1CA00007873 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8BF8DF0D215CC1FE00007873 /* YDSortTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSortTool.h; sourceTree = "<group>"; };
+		8BF8DF0E215CC1FE00007873 /* YDSortTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSortTool.m; sourceTree = "<group>"; };
+		8BF8DF10215CC8E900007873 /* YDDateFormatTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDDateFormatTool.h; sourceTree = "<group>"; };
+		8BF8DF11215CC8E900007873 /* YDDateFormatTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDDateFormatTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB112D72159C90100E557CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB112D12159C90100E557CA = {
+			isa = PBXGroup;
+			children = (
+				8BB112DC2159C90100E557CA /* YDEditAppcationDemo */,
+				8BB112DB2159C90100E557CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB112DB2159C90100E557CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB112DA2159C90100E557CA /* YDEditAppcationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB112DC2159C90100E557CA /* YDEditAppcationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8DEFC215CC1CA00007873 /* FMDB */,
+				8BF8DF10215CC8E900007873 /* YDDateFormatTool.h */,
+				8BF8DF11215CC8E900007873 /* YDDateFormatTool.m */,
+				8BB112DD2159C90100E557CA /* AppDelegate.h */,
+				8BB112DE2159C90100E557CA /* AppDelegate.m */,
+				8BF8DF0D215CC1FE00007873 /* YDSortTool.h */,
+				8BF8DF0E215CC1FE00007873 /* YDSortTool.m */,
+				8BB112E02159C90100E557CA /* ViewController.h */,
+				8BB112E12159C90100E557CA /* ViewController.m */,
+				8B2B91D72180924100AF6885 /* YDApplicationRouter.h */,
+				8B2B91D82180924100AF6885 /* YDApplicationRouter.m */,
+				8B2B91DA2180935A00AF6885 /* UIViewController+Extension.h */,
+				8B2B91DB2180935A00AF6885 /* UIViewController+Extension.m */,
+				8BB112FC215A096C00E557CA /* YDCollectionViewFlowLayout.h */,
+				8BB112FB215A096C00E557CA /* YDCollectionViewFlowLayout.m */,
+				8BB112F32159CBA800E557CA /* YDApplicationModel.h */,
+				8BB112F42159CBA800E557CA /* YDApplicationModel.m */,
+				8BB112F6215A046E00E557CA /* YDAppCollectionViewCell.h */,
+				8BB112F7215A046E00E557CA /* YDAppCollectionViewCell.m */,
+				8BB112F9215A06D100E557CA /* YDAppCollectionViewCell.xib */,
+				8BB112FE215A222100E557CA /* YDApplicationHeaderReusableView.h */,
+				8BB112FF215A222100E557CA /* YDApplicationHeaderReusableView.m */,
+				8BB112E32159C90100E557CA /* Main.storyboard */,
+				8BB112E62159C90300E557CA /* Assets.xcassets */,
+				8BB112E82159C90300E557CA /* LaunchScreen.storyboard */,
+				8BB112EB2159C90300E557CA /* Info.plist */,
+				8BB112EC2159C90300E557CA /* main.m */,
+			);
+			path = YDEditAppcationDemo;
+			sourceTree = "<group>";
+		};
+		8BF8DEFC215CC1CA00007873 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8DEFD215CC1CA00007873 /* FMDatabase.h */,
+				8BF8DEFE215CC1CA00007873 /* FMDatabaseQueue.m */,
+				8BF8DEFF215CC1CA00007873 /* FMResultSet.h */,
+				8BF8DF00215CC1CA00007873 /* FMDatabasePool.h */,
+				8BF8DF01215CC1CA00007873 /* FMDatabaseAdditions.m */,
+				8BF8DF02215CC1CA00007873 /* FMDatabase.m */,
+				8BF8DF03215CC1CA00007873 /* FMDatabaseQueue.h */,
+				8BF8DF04215CC1CA00007873 /* FMDB.h */,
+				8BF8DF05215CC1CA00007873 /* FMDatabaseAdditions.h */,
+				8BF8DF06215CC1CA00007873 /* FMDatabasePool.m */,
+				8BF8DF07215CC1CA00007873 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB112D92159C90100E557CA /* YDEditAppcationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB112F02159C90300E557CA /* Build configuration list for PBXNativeTarget "YDEditAppcationDemo" */;
+			buildPhases = (
+				8BB112D62159C90100E557CA /* Sources */,
+				8BB112D72159C90100E557CA /* Frameworks */,
+				8BB112D82159C90100E557CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDEditAppcationDemo;
+			productName = YDEditAppcationDemo;
+			productReference = 8BB112DA2159C90100E557CA /* YDEditAppcationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB112D22159C90100E557CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "陈小勇";
+				TargetAttributes = {
+					8BB112D92159C90100E557CA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BB112D52159C90100E557CA /* Build configuration list for PBXProject "YDEditAppcationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB112D12159C90100E557CA;
+			productRefGroup = 8BB112DB2159C90100E557CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB112D92159C90100E557CA /* YDEditAppcationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB112D82159C90100E557CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB112EA2159C90300E557CA /* LaunchScreen.storyboard in Resources */,
+				8BB112FA215A06D100E557CA /* YDAppCollectionViewCell.xib in Resources */,
+				8BB112E72159C90300E557CA /* Assets.xcassets in Resources */,
+				8BB112E52159C90100E557CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB112D62159C90100E557CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB112E22159C90100E557CA /* ViewController.m in Sources */,
+				8BF8DF08215CC1CB00007873 /* FMDatabaseQueue.m in Sources */,
+				8BB11300215A222100E557CA /* YDApplicationHeaderReusableView.m in Sources */,
+				8BF8DF0A215CC1CB00007873 /* FMDatabase.m in Sources */,
+				8BB112FD215A096C00E557CA /* YDCollectionViewFlowLayout.m in Sources */,
+				8BF8DF0F215CC1FE00007873 /* YDSortTool.m in Sources */,
+				8BF8DF0B215CC1CB00007873 /* FMDatabasePool.m in Sources */,
+				8BF8DF0C215CC1CB00007873 /* FMResultSet.m in Sources */,
+				8BB112F52159CBA800E557CA /* YDApplicationModel.m in Sources */,
+				8BF8DF12215CC8EA00007873 /* YDDateFormatTool.m in Sources */,
+				8BF8DF09215CC1CB00007873 /* FMDatabaseAdditions.m in Sources */,
+				8BB112F8215A046E00E557CA /* YDAppCollectionViewCell.m in Sources */,
+				8B2B91DC2180935B00AF6885 /* UIViewController+Extension.m in Sources */,
+				8BB112ED2159C90300E557CA /* main.m in Sources */,
+				8BB112DF2159C90100E557CA /* AppDelegate.m in Sources */,
+				8B2B91D92180924100AF6885 /* YDApplicationRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BB112E32159C90100E557CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB112E42159C90100E557CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB112E82159C90300E557CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB112E92159C90300E557CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB112EE2159C90300E557CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BB112EF2159C90300E557CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB112F12159C90300E557CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECWD95948J;
+				INFOPLIST_FILE = YDEditAppcationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunda.YDEditAppcationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB112F22159C90300E557CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECWD95948J;
+				INFOPLIST_FILE = YDEditAppcationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunda.YDEditAppcationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB112D52159C90100E557CA /* Build configuration list for PBXProject "YDEditAppcationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB112EE2159C90300E557CA /* Debug */,
+				8BB112EF2159C90300E557CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB112F02159C90300E557CA /* Build configuration list for PBXNativeTarget "YDEditAppcationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB112F12159C90300E557CA /* Debug */,
+				8BB112F22159C90300E557CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB112D22159C90100E557CA /* Project object */;
+}
